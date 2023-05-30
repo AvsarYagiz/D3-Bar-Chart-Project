@@ -1,0 +1,68 @@
+/* Applies styles to all elements on the page */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+/* Styles specific to the html element */
+html {
+    height: 100%;
+}
+
+/* Styles specific to the body element */
+body {
+    background-color: #283b42;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Styles specific to the svg element */
+svg {
+    background-color:#d1dddb;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 2);
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+/* Styles specific to elements with the class "bar" */
+.bar {
+    background-color: #1d6a96;
+    border-color: #1d6a96;
+    fill: #1d6a96;
+}
+
+/* Styles applied when hovering over elements with the class "bar" */
+.bar:hover {
+    fill: #85b8cb;
+}
+
+/* Styles specific to the element with the ID "tooltip" */
+#tooltip {
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding: 2px;
+    font-size: 17px;
+    opacity: 0.9;   
+    background: #1d6a96;
+    box-shadow: 1px 1px 10px;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+/* Styles specific to the element with the ID "title" */
+#title {
+    font-size: 30px;
+    color: #d1dddb;
+    text-align: center;
+    margin-bottom: 10px;
+}
